@@ -1,0 +1,2 @@
+s=input("ENTER A STRING:-")
+print(s[0].capitalize()+s[1:len(s)-1]+s[-1].capitalize())
