@@ -1,0 +1,17 @@
+x=int(input("Enter number of rows:-"))
+y=int(input("Enter number of columns:-"))
+t=()
+sum=0
+for i in range(x):
+    t1=()
+    for j in range(y):
+        ele=int(input("Enter elements:-"))
+        t1+=ele,
+    t+=t1,
+print(t)
+for a in range(x):
+    sum1=0
+    for b in range(y):
+        sum1+=t[a][b]
+    sum+=sum1
+print(sum)
