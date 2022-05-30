@@ -1,0 +1,10 @@
+x=int(input("Enter number of elements:-"))
+t=()
+str=''
+for i in range(x):
+    y=input("Enter elements:-")
+    t+=y,
+print(t)
+for j in range(x):
+    str+=t[j]
+print(str)
