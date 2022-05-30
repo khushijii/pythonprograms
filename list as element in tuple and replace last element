@@ -1,0 +1,14 @@
+t=()
+num=int(input("Enter number to replace last element:-"))
+x=int(input("Enter number of rows:-"))
+y=int(input("Enter number of columns:-"))
+for i in range(x):
+    l=[]
+    for j in range(y):
+        ele=int(input("Enter element:-"))
+        l+=ele,
+    t+=l,
+print(t)
+for a in range(x):
+    t[a][-1]=num
+print(t)
