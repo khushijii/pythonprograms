@@ -1,0 +1,17 @@
+b=int(input("ENTER ANY NUMBER:-"))
+temp=b
+t=b
+c=0
+sum=0
+while(temp>0):
+    c=c+1
+    temp=temp//10
+
+while(b>0):
+    rem=b%10
+    sum=sum+(rem**c)
+    b=b//10
+if(t==sum):
+    print("ARMSTRONG")
+else:
+    print("NOT ARMSTRONG")
