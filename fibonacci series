@@ -1,0 +1,17 @@
+terms=int(input("ENTER THE TERMS:-"))
+a=0
+b=1
+x=0
+if(terms<=0):
+    print("PLEASE!.ENTER POSITIVE INTEGER")
+elif(terms==1):
+    print("FIBONACCI SEQUENCE UPTO",terms,":",a)
+else:
+    print("FIBONACCI SERIES")
+    print(a)
+    print(b)
+    while(x<terms-2):
+        c=a+b
+        print(c)
+        a,b=b,c
+        x+=1
