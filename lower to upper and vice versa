@@ -1,0 +1,13 @@
+str=input("ENTER STRING:-")
+i = 0
+s=''
+while str[i:]:
+    c=ord(str[i])
+    if(c>=65 and c<=90):
+        s+=chr(c+32)
+    elif(c>=97 and c<=122):
+        s+=chr(c-32)
+    else:
+        s+=chr(c)
+    i+=1
+print("NEW STRING IS:-", s)
