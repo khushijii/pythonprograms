@@ -1,0 +1,19 @@
+c=int(input("ENTER THE COUNT VALUE:-"))
+l=[]
+l1=[]
+l2=[]
+for i in range(0,c):
+    n=int(input("ENTER VALUE:-"))
+    l.append(n)
+print(l)
+a=len(l)
+s=len(l)//2
+print(l[0]+l[-1])
+print(l[0]+l[s]+l[-1])
+for i in range(0,a):
+    if(i%2==0):
+        l1.append(l[i])
+    else:
+        l2.append(l[i])
+print(sum(l1))
+print(sum(l2))
