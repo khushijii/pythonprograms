@@ -1,0 +1,15 @@
+f=open("khushi.txt","r")
+f1=open("kg.txt","w")
+c=f.readlines()
+type(c)
+for i in range(0,len(c)):
+    if(i%2==0):
+        f1.write(c[i])
+    else:
+        pass
+f1.close()
+f1=open("kg.txt","r")
+char=f1.read()
+print(char)
+f.close()
+f1.close()
