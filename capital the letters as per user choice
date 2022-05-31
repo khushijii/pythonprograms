@@ -1,0 +1,3 @@
+s=input("ENTER A STRING:-")
+ch=int(input("ENTER THE NO. OF CHARACTERS TO BE CAPITALIZED:-"))
+print(s[0:len(s)-ch]+s[len(s)-ch::].upper())
