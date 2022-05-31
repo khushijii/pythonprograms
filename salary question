@@ -1,0 +1,16 @@
+BS=int(input("ENTER THE BASIC SALARY:-"))
+if(BS<=10000):
+    HRA=(80*BS)/100
+    DA=(90*BS)/100
+    TS=BS+HRA+DA
+    print("TOTAL SALARY OF AN EMPLOYEE IS=",TS)
+elif (BS>10000 and BS<=20000):
+    HRA=(85*BS)/100
+    DA=(90*BS)/100
+    TS=BS+HRA+DA
+    print("TOTAL SALARY OF AN EMPLOYEE IS=",TS)
+elif (BS>20000):
+    HRA=(95*BS)/100
+    DA=(95*BS)/100
+    TS=BS+HRA+DA
+    print("TOTAL SALARY OF AN EMPLOYEE IS=",TS)
