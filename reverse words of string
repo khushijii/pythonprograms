@@ -1,0 +1,4 @@
+s=input("ENTER A STRING:-")
+x=s.split()
+#w=x[::-1]
+print(" ".join(reversed(x)))
