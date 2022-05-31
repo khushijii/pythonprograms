@@ -1,0 +1,3 @@
+no=int(input("ENTER ANY BINARY NUMBER"))
+binno=no&1
+print("LAST DIGIT OF %d in binary is %1d"%(no,binno))
