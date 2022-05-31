@@ -1,0 +1,15 @@
+def function(a,b):
+    add=a+b
+    sub=a-b
+    mul=a*b
+    div=a/b
+    return add,sub,mul,div
+
+a=int(input("ENTER FIRST NUMBER:-"))
+b=int(input("ENTER SECOND NUMBER:-"))
+function(a,b)
+n,n1,n2,n3=function(a,b)
+print("ADDITION=",n)
+print("SUBTRACTION=",n1)
+print("MULTIPLICATION=",n2)
+print("DIVISION=",n3)
