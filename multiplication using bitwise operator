@@ -1,0 +1,9 @@
+#WAP TO MULTIPLY A NUMBER BY 32 USING BITWISE OPERATOR
+num=int(input("ENTER ANY NUMBER:-"))
+ans=num<<5
+print(ans)
+
+#WAP TO MULTIPLY A NUMBER BY 33 USING BITWISE OPERATOR
+no=int(input("ENTER ANY NUMBER:-"))
+res=(no<<5)+no
+print(res)
