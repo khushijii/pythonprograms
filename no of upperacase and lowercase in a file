@@ -1,0 +1,10 @@
+f=open("khushi.txt","r")
+char=f.read()
+l=u=0
+for c in char:
+    if c.islower():
+        l+=1
+    elif c.isupper():
+        u+=1
+print("NO OF LOWERCASES=",l)
+print("NO OF UPPERCASES=",u)
