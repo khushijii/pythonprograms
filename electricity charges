@@ -1,0 +1,11 @@
+a=int(input("ENTER THE NO. OF UNITS:-"))
+if(a<=50):
+    charge=a*0.5
+elif(a>50 and a<=150):
+    charge=50*0.5+(a-50)*0.75
+elif(a>150 and a<=250):
+    charge=50*0.5+100*0.75+(a-150)*1.20
+else:
+    charge=50*0.5+100*0.75+100*1.20+(a-250)*1.50
+
+print("BILL: %g"%charge)
