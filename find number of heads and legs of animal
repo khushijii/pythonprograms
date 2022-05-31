@@ -1,0 +1,7 @@
+heads=int(input("ENTER THE NUMBER OF HEADS:-"))
+legs=int(input("ENTER THE NUMBER OF LEGS:-"))
+c=0
+c=(legs)-2*(heads)
+c=c/2
+print("NUMBER OF RABBITS",c)
+print("NUMBER OF CHICKEN",heads-c)
