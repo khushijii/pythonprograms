@@ -1,0 +1,6 @@
+no=int(input("ENTER THE NUMBER OF TOTAL CANDIES IN JAR:-"))
+take=int(input("ENTER THE NUMBER OF CANDIES TAKEN OUT FROM THE JAR:-"))
+if((no//2)>=take):
+    print("VALID")
+else:
+    print("INVALID")
