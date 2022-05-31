@@ -1,0 +1,47 @@
+try:
+    a=int(input())
+    b=int(input())
+    c=a/b
+    print(c)
+except ZeroDivisionError:
+    print("M")
+except ValueError:
+    print("A")
+#---------------------------------------------------------------------------------
+try:
+    a=int(input())
+    b=int(input())
+    c=a/b
+    print(c)
+except Exception as e:
+    print(e)
+finally:
+    print("XYZ")
+#---------------------------------------------------------------------------------
+try:
+    a=int(input())
+    b=int(input())
+    c=a/b
+    print(c)
+except Exception as e:
+    print(e)
+else:
+    print("K")
+#---------------------------------------------------------------------------------
+try:
+    f=open("ansk.txt","r")
+    str=f.read()
+    print(str)
+except Exception as e:
+    print(e)
+finally:
+    print("FILE DOES NOT EXIST")
+#----------------------------------------------------------------------------------
+try:
+    a=int(input())
+    if(a<0):
+        raise ValueError
+    else:
+        print(a)
+except ValueError :
+    print("ABC")
