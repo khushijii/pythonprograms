@@ -1,0 +1,12 @@
+def perfect(no):
+    c=0
+    for i in range(1,no):
+        if(no%i==0):
+            c+=i
+    if(c==no):
+        print("PERFECT NUMBER")
+    else:
+        print("NOT A PERFECT NUMBER")
+        
+no=int(input("ENTER THE NUMBER:-"))
+perfect(no)
