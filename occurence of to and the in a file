@@ -1,0 +1,8 @@
+f=open("khushi.txt","r")
+str=f.read()
+str1=str.lower()
+a=str1.count("to")
+b=str1.count("the")
+print("OCCURENCES OF TO=",a)
+print("OCCURENCES OF THE=",b)
+f.close()
