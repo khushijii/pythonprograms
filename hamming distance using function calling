@@ -1,0 +1,11 @@
+def hamming_distance(a,b):
+    s=a^b
+    bits=0
+    while(s>0):
+        bits+=s&1
+        s>>=1
+    print(bits)
+
+a=int(input("ENTER FIRST NUMBER:-"))
+b=int(input("ENTER SECOND NUMBER:-"))
+hamming_distance(a,b)
