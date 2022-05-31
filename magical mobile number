@@ -1,0 +1,18 @@
+num=int(input("ENTER ANY NUMBER:-"))
+i=1
+even=0
+odd=0
+while(i<=10):
+    if(i%2==0):
+        mo=num%10
+        even = even + mo
+        num=num//10
+    else:
+        no =num%10
+        odd = odd + no
+        num=num//10
+    i=i+1
+if(even==odd):
+    print("MAGIC NUMBER")
+else:
+    print("NOT A MAGIC NUMBER")
